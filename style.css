@@ -22,23 +22,24 @@ body {
     flex-wrap: wrap;
     margin: 0;
     padding: auto;
+    
 }
 
 
 .portifolio .info-portifolio {
-    
+    line-height: 0;
     font-size: 30px;
     font-weight: 400;
 
 }
 .portifolio .titulo-portifolio {
-   
+    line-height: 0;
     font-size: 130px;
     font-weight: 800;
 }
 
 .portifolio .titulo-portifolio .descricao {
-
+    line-height: 10px;
     font-size: 65px;
     font-weight: 400;
 
