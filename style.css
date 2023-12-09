@@ -1,5 +1,5 @@
 body {
-    
+
     font-family: 'Viga', sans-serif;
     background-image: url(imagens/FUNDO\ HOME.png);
     color: white;
@@ -8,10 +8,40 @@ body {
 
 
 
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+
+}
+
 .logo {
+
     height: 180px;
     display: flex;
     align-items: start;
+
+}
+
+.header .menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.header .menu a {
+    padding: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+.header .menu li a:hover {
+
+    background-color: blueviolet;
+    border-radius: 10px;
 
 }
 
@@ -22,7 +52,7 @@ body {
     flex-wrap: wrap;
     margin: 0;
     padding: auto;
-    
+
 }
 
 
@@ -32,6 +62,7 @@ body {
     font-weight: 400;
 
 }
+
 .portifolio .titulo-portifolio {
     line-height: 0;
     font-size: 130px;
@@ -43,23 +74,4 @@ body {
     font-size: 65px;
     font-weight: 400;
 
-}
-
-.portifolio .menu {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.portifolio .menu a{
-    padding: 5px;
-    font-size: 20px;
-    color: white;
-}
-
-.portifolio .menu li a:hover {
-   
-    background-color:blueviolet ;
-    border-radius: 10px;
- 
 }
