@@ -1,5 +1,64 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+    
+    font-family: 'Viga', sans-serif;
     background-image: url(imagens/FUNDO\ HOME.png);
+    color: white;
+
 }
 
+
+
+.logo {
+    height: 180px;
+    display: flex;
+    align-items: start;
+
+}
+
+.portifolio {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: auto;
+}
+
+
+.portifolio .info-portifolio {
+    
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.portifolio .titulo-portifolio {
+   
+    font-size: 130px;
+    font-weight: 800;
+}
+
+.portifolio .titulo-portifolio .descricao {
+
+    font-size: 65px;
+    font-weight: 400;
+
+}
+
+.portifolio .menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portifolio .menu a{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.portifolio .menu li a:hover {
+   
+    background-color:blueviolet ;
+    border-radius: 10px;
+ 
+}
