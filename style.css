@@ -86,16 +86,15 @@ body {
 .pagina-2-sobre .p-sobre{
     font-size: 25px;
     font-weight: 400;
-    margin-left: 25px;
-  
+    margin-left: 30px;
     width: 1080px;
 
 }
 .pagina-2-sobre .foto-perfil{
-    margin-left: 1350px;
+    margin-left: 1300px;
     margin-bottom: 800px;
     margin-top: -500px;
-    width: 350px;
+    width: 500px;
     height: 600px;
     border-radius: 30px;
     
