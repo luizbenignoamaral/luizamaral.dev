@@ -1,77 +1,102 @@
 body {
 
     font-family: 'Viga', sans-serif;
-    background-image: url(imagens/FUNDO\ HOME.png);
+    width: 1920;
+    height: 1080;
     color: white;
 
 }
-
-
-
 
 .header {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 45px;
+    align-items: flex-start;
+    padding: 3px;
 
 }
 
 .logo {
-
-    height: 180px;
+    position: fixed;
+    height: 120px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
 
 }
 
-.header .menu {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+.pagina-1-portifolio {
+    background: url(imagens/FUNDO\ HOME.png) repeat-y;
+    width: 1920px;
+    height: 1080px;
 }
 
-.header .menu a {
-    padding: 3px;
-    font-size: 20px;
-    color: white;
-}
+.pagina-1-portifolio .portifolio {
 
-.header .menu li a:hover {
-
-    background-color: blueviolet;
-    border-radius: 10px;
-
-}
-
-.portifolio {
+    width: 1920;
+    height: 1080;
     display: flex;
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0;
-    padding: auto;
+    padding: 80px;
 
 }
 
-
-.portifolio .info-portifolio {
+.pagina-1-portifolio .portifolio .info-portifolio {
     line-height: 0;
     font-size: 30px;
     font-weight: 400;
 
 }
 
-.portifolio .titulo-portifolio {
+.pagina-1-portifolio .portifolio .titulo-portifolio {
     line-height: 0;
     font-size: 130px;
     font-weight: 800;
 }
 
-.portifolio .titulo-portifolio .descricao {
+.pagina-1-portifolio .portifolio .titulo-portifolio .descricao {
     line-height: 10px;
     font-size: 65px;
     font-weight: 400;
 
+}
+
+.pagina-2-sobre{
+    background: url(imagens/FUNDO\ SOBRE.png) repeat-y;
+    width: 1920px;
+    height: 1080px;
+}
+.pagina-2-sobre .titulo-sobre{
+    width: 1920;
+    height: 1080;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 130px;
+    font-weight: 800;
+}
+
+.pagina-2-sobre .descricao-sobre{
+    position: absolute;
+    display: inline-block;
+
+}
+.pagina-2-sobre .p-sobre{
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 25px;
+  
+    width: 1080px;
+
+}
+.pagina-2-sobre .foto-perfil{
+    margin-left: 1350px;
+    margin-bottom: 800px;
+    margin-top: -500px;
+    width: 350px;
+    height: 600px;
+    border-radius: 30px;
+    
 }
