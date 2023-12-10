@@ -32,8 +32,6 @@ body {
 
 .pagina-1-portifolio .portifolio {
 
-    width: 1920;
-    height: 1080;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -69,8 +67,6 @@ body {
     height: 1080px;
 }
 .pagina-2-sobre .titulo-sobre{
-    width: 1920;
-    height: 1080;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -97,5 +93,22 @@ body {
     width: 500px;
     height: 600px;
     border-radius: 30px;
+    
+}
+
+.pagina-3-projetos{
+    background: url(imagens/FUNDO\ PROJETOS.jpg) repeat-y;
+    width: 1920px;
+    height: 1080px;
+}
+.pagina-3-projetos .titulo-projetos{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 130px;
+    font-weight: 800;
+}
+.pagina-3-projetos .conteudo-projeto{
+
     
 }
