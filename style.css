@@ -1,8 +1,6 @@
 body {
 
     font-family: 'Viga', sans-serif;
-    width: 1920;
-    height: 1080;
     color: white;
 
 }
@@ -28,6 +26,7 @@ body {
     background: url(imagens/FUNDO\ HOME.png) repeat-y;
     width: 1920px;
     height: 1080px;
+    display: inline-block;
 }
 
 .pagina-1-portifolio .portifolio {
@@ -61,12 +60,14 @@ body {
 
 }
 
-.pagina-2-sobre{
+.pagina-2-sobre {
     background: url(imagens/FUNDO\ SOBRE.png) repeat-y;
     width: 1920px;
     height: 1080px;
+   
 }
-.pagina-2-sobre .titulo-sobre{
+
+.pagina-2-sobre .titulo-sobre {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -74,41 +75,68 @@ body {
     font-weight: 800;
 }
 
-.pagina-2-sobre .descricao-sobre{
-    position: absolute;
-    display: inline-block;
 
-}
-.pagina-2-sobre .p-sobre{
+.pagina-2-sobre .p-sobre {
     font-size: 25px;
     font-weight: 400;
     margin-left: 30px;
     width: 1080px;
 
 }
-.pagina-2-sobre .foto-perfil{
+
+.pagina-2-sobre .foto-perfil {
     margin-left: 1300px;
     margin-bottom: 800px;
     margin-top: -500px;
     width: 500px;
     height: 600px;
     border-radius: 30px;
-    
+
 }
 
-.pagina-3-projetos{
+.pagina-3-projetos {
     background: url(imagens/FUNDO\ PROJETOS.jpg) repeat-y;
     width: 1920px;
     height: 1080px;
+    display: inline-block;
 }
-.pagina-3-projetos .titulo-projetos{
-    display: flex;
+
+.pagina-3-projetos .titulo-projetos {
     text-align: center;
-    flex-direction: column;
     font-size: 130px;
     font-weight: 800;
+    margin-top: 0;
 }
-.pagina-3-projetos .conteudo-projeto{
 
-    
+.pagina-3-projetos .conteudo-projetos {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: -50px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.pagina-3-projetos .projetos-modelo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin: ;
+
+}
+
+.pagina-3-projetos .projetos-modelo .icon {
+    width: 270px;
+    height: 90px;
+}
+
+.pagina-3-projetos .projetos-modelo .icon img {
+    margin-bottom: 3px;
+    width: 60px;
+    height: 90px;
 }
