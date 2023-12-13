@@ -105,7 +105,7 @@ body {
     text-align: center;
     font-size: 130px;
     font-weight: 800;
-    margin-top: 0;
+    margin-top: -30px;
 }
 
 .pagina-3-projetos .conteudo-projetos {
@@ -129,14 +129,11 @@ body {
     margin: ;
 
 }
+.pagina-3-projetos .projetos-modelo .desc-projeto{
+    margin-left: 15px;
+}
 
 .pagina-3-projetos .projetos-modelo .icon {
-    width: 270px;
-    height: 90px;
+   margin: 0;
 }
 
-.pagina-3-projetos .projetos-modelo .icon img {
-    margin-bottom: 3px;
-    width: 60px;
-    height: 90px;
-}
