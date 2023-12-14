@@ -6,21 +6,90 @@ body {
     display: grid;
     grid-template-areas:
         "header header header header"
+        "home home home home"
         "sobre sobre sobre sobre"
         "projetos projetos projetos projetos"
         "contato contato contato contato"
         "footer footer footer footer ";
     grid-template-columns: repeat(4, 1fr);
     font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/src/images/background.jpg);
+
 }
 
 .header {
     grid-area: header;
-   
+    background: transparent;
 
 }
- 
 
+.header .header-container {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+
+}
+
+.header .logo {
+    display: block;
+    align-items: center;
+}
+
+.header nav ul {
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.header nav ul li:hover {
+    background-color: cyan;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.header nav ul li {
+    color;
+    margin-left: 15px;
+}
+
+.header nav ul li a{
+    color: var(--cor-fonte);
+}
+
+.home {
+    grid-area: home;
+    
+    
+}
+
+.home .home-portfolio{
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.home .home-portfolio h3{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+
+.home .home-portfolio h1{
+    font-size: 130px;
+    font-weight: 900;
+}
 
 .sobre {
     grid-area: sobre;
