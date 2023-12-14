@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%
+}
+
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "sobre sobre sobre sobre"
+        "projetos projetos projetos projetos"
+        "contato contato contato contato"
+        "footer footer footer footer ";
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.6rem;
+}
+
+.header {
+    grid-area: header;
+   
+}
+
+
+.sobre {
+    grid-area: sobre;
+}
+
+.projetos {
+    grid-area: projetos;
+
+}
+
+.contato {
+    grid-area: contato;
+}
+
+.footer {
+    grid-area: footer;
+
+}
