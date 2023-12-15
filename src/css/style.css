@@ -59,41 +59,75 @@ body {
     margin-left: 15px;
 }
 
-.header nav ul li a{
+.header nav ul li a {
     color: var(--cor-fonte);
 }
 
 .home {
     grid-area: home;
-    
-    
+
+
 }
 
-.home .home-portfolio{
+.home .home-portfolio {
     color: var(--cor-fonte);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 20px;
 }
 
 
-.home .home-portfolio h3{
+.home .home-portfolio h3 {
     font-size: 30px;
     font-weight: 400;
 
 }
 
 
-.home .home-portfolio h1{
+.home .home-portfolio h1 {
     font-size: 130px;
     font-weight: 900;
 }
 
 .sobre {
     grid-area: sobre;
+    color: var(--cor-fonte);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto' sans-serif;
+    
 }
+
+.sobre img {
+    display: flex;
+    margin: 30px;
+    border-radius: 100px;
+
+}
+.sobre .quem-sou-eu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.sobre .quem-sou-eu h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.sobre .quem-sou-eu p {
+    margin: 30px;
+    text-align:start;
+    font-size: 20px;
+}
+
 
 .projetos {
     grid-area: projetos;
