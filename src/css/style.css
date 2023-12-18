@@ -53,7 +53,7 @@ body {
 }
 
 .header nav ul li {
-    color;
+    color:var(--cor-destaque-2);
     margin-left: 15px;
 }
 
@@ -62,9 +62,7 @@ body {
 }
 
 .home {
-
     grid-area: home;
-
 }
 
 .home .home-portfolio {
