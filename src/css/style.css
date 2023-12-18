@@ -49,7 +49,7 @@ body {
 }
 
 .header nav ul li:hover {
-    background-color: cyan;
+    background-color: var(--cor-destaque);
     border-radius: 6px;
     transition: 0.5s;
 }
@@ -137,21 +137,25 @@ body {
 .projetos {
     grid-area: projetos;
     color: var(--cor-fonte);
-  
+
 }
 
-.projetos .grupo-projetos{
+.projetos img {
+    border-radius: 10px;
+
+}
+
+.projetos .grupo-projetos {
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-
 .projetos h1 {
     font-size: 50px;
     font-weight: 400px;
-    
+
 }
 
 
@@ -166,16 +170,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:auto;
+    padding: auto;
     flex-wrap: wrap;
-    margin : auto;
+    margin: auto;
     margin-bottom: 30px;
-    border: solid 1px white;
+    border: 2px solid var(--cor-destaque);
     border-radius: 10px;
-    
-    
+
 }
 
+
+.projetos .projetos-1:hover,
+.projetos-2:hover,
+.projetos-3:hover,
+.projetos-4:hover,
+.projetos-5:hover,
+.projetos-6:hover,
+.projetos-7:hover,
+.projetos-8:hover {
+    background-color: var(--cor-destaque-2);
+
+}
 
 
 
