@@ -64,8 +64,8 @@ body {
 }
 
 .home {
-    grid-area: home;
 
+    grid-area: home;
 
 }
 
@@ -92,13 +92,18 @@ body {
     font-weight: 900;
 }
 
+.home .info-home {
+    margin-bottom: 300px;
+
+}
+
 .sobre {
     grid-area: sobre;
     color: var(--cor-fonte);
     display: flex;
     flex-direction: row;
     font-family: 'Roboto' sans-serif;
-    
+
 }
 
 .sobre img {
@@ -107,6 +112,7 @@ body {
     border-radius: 100px;
 
 }
+
 .sobre .quem-sou-eu {
     display: flex;
     flex-direction: column;
@@ -116,7 +122,6 @@ body {
 }
 
 
-
 .sobre .quem-sou-eu h2 {
     font-size: 50px;
     font-weight: 400;
@@ -124,15 +129,55 @@ body {
 
 .sobre .quem-sou-eu p {
     margin: 30px;
-    text-align:start;
+    text-align: start;
     font-size: 20px;
 }
 
 
 .projetos {
     grid-area: projetos;
-
+    color: var(--cor-fonte);
+  
 }
+
+.projetos .grupo-projetos{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.projetos h1 {
+    font-size: 50px;
+    font-weight: 400px;
+    
+}
+
+
+.projetos .projetos-1,
+.projetos-2,
+.projetos-3,
+.projetos-4,
+.projetos-5,
+.projetos-6,
+.projetos-7,
+.projetos-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:auto;
+    flex-wrap: wrap;
+    margin : auto;
+    margin-bottom: 30px;
+    border: solid 1px white;
+    border-radius: 10px;
+    
+    
+}
+
+
+
 
 .contato {
     grid-area: contato;
