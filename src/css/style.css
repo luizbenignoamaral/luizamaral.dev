@@ -205,15 +205,12 @@ body {
     
 }
 
-
-
 .projetos .grupo-projetos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 100px;
 }
-
 
 .projetos .projetos-1,
 .projetos-2,
@@ -235,7 +232,6 @@ body {
 
 }
 
-
 .projetos .projetos-1:hover,
 .projetos-2:hover,
 .projetos-3:hover,
@@ -248,7 +244,6 @@ body {
     transition: 0.4s;
     animation: ease-in-out;
 }
-
 
 
 .contato {
@@ -270,7 +265,6 @@ body {
     margin: 30px;
 
 }
-
 
 .footer {
     grid-area: footer;
