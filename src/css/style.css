@@ -172,7 +172,10 @@ body {
 }
 
 .conhecimentos .grupo-tecnologias .tecnologia h3{
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
+    margin: 5px;
 }
 
 .conhecimentos .grupo-tecnologias .tecnologia img{
