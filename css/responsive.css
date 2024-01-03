@@ -9,6 +9,9 @@
         flex-direction: column;
 
     }
+    .header .header-container .logo{
+        margin-left: 60px;
+    }
 
     .header .header-container nav ul{
         display: flex;
@@ -70,6 +73,10 @@
     .header .header-container{
         display: flex;
         flex-direction: column;
+    }
+
+    .header .header-container .logo{
+        margin-left: 60px;
     }
 
     .header .header-container nav ul{
