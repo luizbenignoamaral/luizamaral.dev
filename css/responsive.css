@@ -60,130 +60,13 @@
 
 @media (max-width: 576px) {
 
-    .header .header-container{
-        display: flex;
-        flex-direction: column;
 
-    }
-
-    .header .header-container nav ul{
-        display: flex;
-        text-align: start;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .sobre{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .sobre img{
-        justify-content: center;
-        max-width: 300px;
-    }
-
-
-    .conhecimentos{
-        display: flex;
-        justify-content: center;
-    
-    }
-
-    
-
-
-    .conhecimentos .grupo-tecnologias{
-        align-items: center;
-        flex-wrap: wrap;
-    }
 }
 
 @media (max-width: 992px) {
 
-    .header .header-container{
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .header .header-container nav ul{
-        display: flex;
-        text-align: start;
-        align-items: space-between;
-    }
-
-
-    .sobre{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .sobre img{
-        justify-content: center;
-        max-width: 300px;
-    }
-
-
-    .conhecimentos{
-        display: flex;
-        justify-content: center;
-    
-    }
-
-    
-
-
-    .conhecimentos .grupo-tecnologias{
-        align-items: center;
-        flex-wrap: wrap;
-    }
+  
 }
 
-@media (max-width: 1200px) {
-    .header .header-container{
-        display: flex;
-        
-
-    }
-
-    .header .header-container nav ul{
-        display: flex;
-        text-align: start;
-        align-items: space-between;
-    }
-
-
-    .sobre{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .sobre img{
-        justify-content: center;
-        max-width: 300px;
-    }
-
-
-    .conhecimentos{
-        display: flex;
-        justify-content: center;
-    
-    }
-
-    
-
-
-    .conhecimentos .grupo-tecnologias{
-        align-items: center;
-        width: 500px;
-        height: 300px;
-    }
-}
+@media (max-width: 1200px) {}
+   
