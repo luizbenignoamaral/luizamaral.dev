@@ -94,14 +94,11 @@
 
 
     .conhecimentos h1{
-        display: flex;
         text-align: center;
-        justify-content: center;
-        align-items: center;
+        
     }
 
     .conhecimentos .grupo-tecnologias{
-        
         flex-wrap: wrap;
     }
 
