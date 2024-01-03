@@ -92,8 +92,16 @@
         
     }
 
-    .conhecimentos .grupo-tecnologias{
+
+    .conhecimentos h1{
         display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conhecimentos .grupo-tecnologias{
+        
         flex-wrap: wrap;
     }
 
@@ -123,11 +131,7 @@
 
 @media (max-width: 1200px) {
 
-    .conhecimentos .grupo-tecnologias{
-        flex-wrap: ;
-
-    }
-
+    
 
 }
    
