@@ -1,5 +1,9 @@
 @media (max-width: 375px) {
     
+    body{
+        max-width: 375px;
+
+    }
     .header .header-container{
         display: flex;
         flex-direction: column;
@@ -60,13 +64,58 @@
 
 @media (max-width: 576px) {
 
+    .header .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header .header-container nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .home-portfolio .nome-portfolio{
+        
+        font-size: 80px;
+        font-weight: 900;
+        
+    }
+
+    .sobre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre img {
+        max-width: 300px;
+        
+    }
+
+    .conhecimentos .grupo-tecnologias{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 
 }
 
 @media (max-width: 992px) {
 
+    .conhecimentos .grupo-tecnologias{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
   
 }
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+
+    .conhecimentos .grupo-tecnologias{
+        flex-wrap: wrap;
+
+    }
+
+
+}
    
