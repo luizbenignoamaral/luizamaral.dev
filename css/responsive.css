@@ -60,6 +60,9 @@
     }
 
 
+    .projetos .grupo-projetos img{
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -107,6 +110,10 @@
 
     }
   
+    .projetos .grupo-projetos img{
+        max-width: 375px;
+    }
+   
 }
 
 @media (max-width: 1200px) {
