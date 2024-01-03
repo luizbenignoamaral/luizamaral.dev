@@ -15,7 +15,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
-    background:  black;
+    background: black;
 
 }
 
@@ -66,13 +66,13 @@ body {
     grid-area: home;
 }
 
-.home  {
+.home {
     color: var(--cor-fonte);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
+
 }
 
 
@@ -88,10 +88,10 @@ body {
 }
 
 
-.home h4{
+.home h4 {
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 
 }
 
@@ -99,9 +99,30 @@ body {
     grid-area: sobre;
     color: var(--cor-fonte);
     display: flex;
-    flex-direction: row;
-    font-family: 'Roboto' sans-serif;
+    justify-content: center;
+}
 
+
+
+.sobre .quem-sou-eu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1800px;
+
+}
+
+.sobre .quem-sou-eu h2 {
+    font-size: 50px;
+    font-weight: 400px;
+}
+
+.sobre .quem-sou-eu p {
+    max-width: 1600px;
+    word-wrap: normal;
+    text-align: center;
+    font-size: 30px;
 }
 
 .sobre img {
@@ -111,25 +132,6 @@ body {
 
 }
 
-.sobre .quem-sou-eu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-
-.sobre .quem-sou-eu h2 {
-    font-size: 50px;
-    font-weight: 400px;
-}
-
-.sobre .quem-sou-eu p {
-    margin: 30px;
-    text-align: start;
-    font-size: 20px;
-}
 
 
 .conhecimentos {
@@ -137,7 +139,7 @@ body {
 
 }
 
-.conhecimentos{
+.conhecimentos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +147,7 @@ body {
     margin-top: 130px;
 }
 
-.conhecimentos .titulo-tecnologias{
+.conhecimentos .titulo-tecnologias {
     font-size: 50px;
 
 }
@@ -160,7 +162,7 @@ body {
 }
 
 
-.conhecimentos .grupo-tecnologias .tecnologia{
+.conhecimentos .grupo-tecnologias .tecnologia {
     display: flex;
     max-width: 200px;
     max-height: 300px;
@@ -172,14 +174,14 @@ body {
 
 }
 
-.conhecimentos .grupo-tecnologias .tecnologia h3{
+.conhecimentos .grupo-tecnologias .tecnologia h3 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     margin: 5px;
 }
 
-.conhecimentos .grupo-tecnologias .tecnologia img{
+.conhecimentos .grupo-tecnologias .tecnologia img {
     max-width: 80px;
     max-height: 80px;
     margin-top: 20px;
@@ -197,19 +199,19 @@ body {
 
 }
 
-.projetos .titulo-projetos{
+.projetos .titulo-projetos {
     color: var(--cor-fonte);
     font-size: 50px;
     flex-direction: column
-
 }
 
 .projetos img {
     border-radius: 5%;
-    
+
 }
 
 .projetos .grupo-projetos {
+    max-width: 1600px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -275,7 +277,7 @@ body {
 
 }
 
-.footer .dev-site{
+.footer .dev-site {
     display: flex;
     justify-content: center;
     align-items: center;

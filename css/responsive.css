@@ -9,14 +9,11 @@
         flex-direction: column;
 
     }
-    .header .header-container .logo{
-        margin-left: 60px;
-    }
 
     .header .header-container nav ul{
         display: flex;
-        text-align: start;
         flex-direction: column;
+        text-align: start;
         align-items: center;
     }
 
@@ -75,13 +72,8 @@
         flex-direction: column;
     }
 
-    .header .header-container .logo{
-        margin-left: 60px;
-    }
-
     .header .header-container nav ul{
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
@@ -111,6 +103,13 @@
 }
 
 @media (max-width: 992px) {
+
+    .header .header-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
 
     .conhecimentos .grupo-tecnologias{
         display: flex;
