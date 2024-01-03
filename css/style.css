@@ -15,7 +15,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
-    background-image: url(/src/images/background.jpg);
+    background-image: url(/images/background.jpg);
 
 }
 
